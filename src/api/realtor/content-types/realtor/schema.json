@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "realtors",
+  "info": {
+    "singularName": "realtor",
+    "pluralName": "realtors",
+    "displayName": "Риэлтор",
+    "description": "Информация о риэлторе"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "telegram": {
+      "type": "string"
+    }
+  }
+}

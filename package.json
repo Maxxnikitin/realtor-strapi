@@ -1,13 +1,12 @@
 {
-  "name": "my-app-name",
+  "name": "realtor-strapi",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "CMS для сайта риэлтора",
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
-    "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi"
   },
